@@ -12,7 +12,7 @@ class WindowsBuild
         BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
         buildPlayerOptions.scenes = new[] { "Assets/Scenes/SampleScene.unity" };
         buildPlayerOptions.locationPathName = "windowsbuildtest";
-        buildPlayerOptions.target = (BuildTarget) 19;
+        buildPlayerOptions.target = (BuildTarget) 5;
         buildPlayerOptions.options = (BuildOptions) 0;
         buildPlayerOptions.targetGroup = (BuildTargetGroup) 1;
 
